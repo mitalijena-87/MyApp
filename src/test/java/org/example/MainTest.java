@@ -32,6 +32,6 @@ public class MainTest {
         when(fileProcessorServiceMock.readAndReverseContent(anyString())).thenReturn("RQP");
         when(fileProcessorServiceMock.writeContent(anyString(),anyString())).thenReturn("");
 
-        Main.main(args);
+        main.fileContentProcessing();
     }
 }
